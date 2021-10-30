@@ -3,7 +3,11 @@
 
 
 
-|     文件夹      |        描述         |
-| :-------------: | :-----------------: |
-| ActlyLoadNoComp | 主动调用dex(非组件) |
+
+
+|        文件夹        |           描述            |
+| :------------------: | :-----------------------: |
+|   ActlyLoadNoComp    |    主动调用dex(非组件)    |
+|    ActlyLoadComp     |     主动调用dex(组件)     |
+| ActlyLoadCompTestApp | 主动调用dex(组件):被调app |
 
