@@ -13,7 +13,7 @@
 
 #### 实验步骤
 
-绕过MainActivity的
+绕过MainActivity的登录验证，直接访问受限的`SuccessActivity`。
 
 ##### 1. 编译安装、并运行该程序
 
