@@ -3,11 +3,19 @@
 
 
 
+Reverse
 
-
-|        文件夹        |           描述            |
+|         项目         |           描述            |
 | :------------------: | :-----------------------: |
 |   ActlyLoadNoComp    |    主动调用dex(非组件)    |
 |    ActlyLoadComp     |     主动调用dex(组件)     |
 | ActlyLoadCompTestApp | 主动调用dex(组件):被调app |
+
+
+
+ActivityHole
+
+|          项目          |       描述       |
+| :--------------------: | :--------------: |
+| ActivityOverPermission | Activity越权绕过 |
 
