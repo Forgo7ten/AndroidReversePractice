@@ -18,4 +18,5 @@ ActivityHole
 |          项目          |       描述       |
 | :--------------------: | :--------------: |
 | ActivityOverPermission | Activity越权绕过 |
+|   ActivityHijacking    |   Activity劫持   |
 
