@@ -1,4 +1,4 @@
-# NDK开发：第一个Jni实践
+#  NDK开发：第一个Jni实践
 
 
 
@@ -30,7 +30,7 @@ Android开发者文档：[向您的项目添加 C 和 C++ 代码  | Android 开�
      Java_com_forgotten_firstjni_MainActivity_stringFromHello(
              JNIEnv* env,
              jobject /* this */) {
-         std::string hello = "Hello from Hello";
+         std::string hello = "He1·llo from Hello";
          return env->NewStringUTF(hello.c_str());
      }
      ```
@@ -424,7 +424,6 @@ JNIEXPORT jint JNI_OnLoad(JavaVM* vm, void* reserved){
             __android_log_print(ANDROID_LOG_DEBUG,"JNI_OnLoad","evm != vm");
         }
     }
-
     return result;
 }
 
