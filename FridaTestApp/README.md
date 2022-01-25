@@ -373,6 +373,8 @@ function printStack(name) {
 
 ### RPC主动调用
 
+**rpc.exports导出名不可以有大写字母或者下划线**
+
 ```javascript
 function invoke() {
     Java.perform(function () {

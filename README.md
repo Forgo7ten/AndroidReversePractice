@@ -12,6 +12,7 @@ Reverse
 | [ActlyLoadCompTestApp](https://github.com/Forgo7ten/AndroidReversePractice/tree/main/ActlyLoadCompTestApp) |   主动调用dex(组件):被调app   |
 | [FirstJni](https://github.com/Forgo7ten/AndroidReversePractice/tree/main/FirstJni) |       NDK开发：Jni实践        |
 | [FridaTestApp](https://github.com/Forgo7ten/AndroidReversePractice/tree/main/FridaTestApp) | 学习Frida的测试app及Frida代码 |
+| [Crack](https://github.com/Forgo7ten/AndroidReversePractice/tree/main/Crack) |     对一些App的Crack分析      |
 
 
 
