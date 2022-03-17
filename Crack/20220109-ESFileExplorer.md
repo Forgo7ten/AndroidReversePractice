@@ -2,7 +2,10 @@
 title:  ES FileExplorer修改记录
 
 tags:
-  - Crack
+  - 会员解锁
+  - 签名校验
+  - 去除更新
+  - 去除广告
 author: Forgo7ten
 updated: '2022/01/09 00:03:00'
 categories:
