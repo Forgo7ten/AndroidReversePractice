@@ -31,11 +31,11 @@ version 4.2.8.1
 
 ## 效果展示
 
-![n1](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842.png)
+![n1](20220109-ESFileExplorer/20220110000842.png)
 
-![n2](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-1.png)
+![n2](20220109-ESFileExplorer/20220110000842-1.png)
 
-![n3](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-2.png)
+![n3](20220109-ESFileExplorer/20220110000842-2.png)
 
 ## 分析过程
 
@@ -49,7 +49,7 @@ version 4.2.8.1
 
 然后hook了getIsVip()，发现没有被调用。
 
-![image-20220109143829888](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-3.png)
+![image-20220109143829888](20220109-ESFileExplorer/20220110000842-3.png)
 
 然后找一个触发vip开通的地方，来到了vip功能 侧边栏管理
 
@@ -57,15 +57,15 @@ version 4.2.8.1
 
 此时停止记录，搜搜`onClick`
 
-![image-20220109144048736](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-4.png)
+![image-20220109144048736](20220109-ESFileExplorer/20220110000842-4.png)
 
 前往查看
 
-![image-20220109144319810](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-5.png)
+![image-20220109144319810](20220109-ESFileExplorer/20220110000842-5.png)
 
 前往`a.H1(`)方法，H1直接调用了`this.J1()`方法，查看`J1()`
 
-![image-20220109144338972](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-6.png)
+![image-20220109144338972](20220109-ESFileExplorer/20220110000842-6.png)
 
 发现有两个if判断，先查看最外层的if判断的else代码`ChinaMemberActivity.x1(this, "nav_manage");`；启动的正好是开通Vip的Activity
 
@@ -93,7 +93,7 @@ p2是使用getDefaultSharedPreferences取出了一个Boolean值，也就是将vi
 
 其中b50.d的值为
 
-![image-20220109144626867](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-7.png)
+![image-20220109144626867](20220109-ESFileExplorer/20220110000842-7.png)
 
 同样找到了在p2同类的j4方法，这里将vip状态存入本地文件；hook了一下，没有被调用，可能登录才会调用吧
 
@@ -124,7 +124,7 @@ function main() {
 setImmediate(main);
 ```
 
-![image-20220109145120810](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-8.png)
+![image-20220109145120810](20220109-ESFileExplorer/20220110000842-8.png)
 
 ##### 修改Smali
 
@@ -144,13 +144,13 @@ setImmediate(main);
 
 重新打包安装后提示盗版，同时会员失效
 
-![daoban](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-9.png)
+![daoban](20220109-ESFileExplorer/20220110000842-9.png)
 
-![image-20220109151145363](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-10.png)
+![image-20220109151145363](20220109-ESFileExplorer/20220110000842-10.png)
 
 找到这个弹窗来自`pop.view.e`
 
-![image-20220109151632823](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-11.png)
+![image-20220109151632823](20220109-ESFileExplorer/20220110000842-11.png)
 
 hook这几个方法，打印栈回溯
 
@@ -166,7 +166,7 @@ e.e()  false
 
 而这几个方法都是由`FileExplorerActivity$c3$a.run()`方法调用的，`e.c()`也有`utils.p.a()`来调用
 
-![image-20220109153959997](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-12.png)
+![image-20220109153959997](20220109-ESFileExplorer/20220110000842-12.png)
 
 可以看到验证了包名，或者`e.c()==false`都会执行`FileExplorerActivity$c3$a$a.run()`回调，而在这调用了`e.f()`方法弹出盗版弹窗
 
@@ -234,13 +234,13 @@ e.c()和e.d() 任意一方法返回`true`即可，我这里就都改了
 
 先分析布局找到控件的资源ID
 
-![image-20220109161959607](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-13.png)
+![image-20220109161959607](20220109-ESFileExplorer/20220110000842-13.png)
 
 根据ID找到弹出弹窗的方法为`ec.m10.l()`（更新数据解析类`es.l10$b.b(JSONObject p0)`），交叉引用找到`ec.m10.c()`方法
 
 其中int i对应的是`“upgrade_nat_error”`，修改时候返回下面的`upgrade_is_latest`即可提示最新版
 
-![image-20220109163858577](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-14.png)
+![image-20220109163858577](20220109-ESFileExplorer/20220110000842-14.png)
 
 #### 修改
 
@@ -263,7 +263,7 @@ e.c()和e.d() 任意一方法返回`true`即可，我这里就都改了
 
 打包完发现这个方法控制的是显示，上述那样改还是每次打开会弹出一个Toast。想关闭的话把下图中的自动检测关掉（因为每次打开都会检测新版本），或者上面修改的2678四行代码删掉就可以了，懒得搞了
 
-![img](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-15.png)
+![img](20220109-ESFileExplorer/20220110000842-15.png)
 
 
 
@@ -273,13 +273,13 @@ e.c()和e.d() 任意一方法返回`true`即可，我这里就都改了
 
 根据芽衣大佬的方法[【新手教程】安卓 穿山甲广告（字节跳动）、腾讯广告和百度广告 通用去除教程](https://www.52pojie.cn/thread-1213695-1-1.html)
 
-![image-20220109172021531](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-16.png)
+![image-20220109172021531](20220109-ESFileExplorer/20220110000842-16.png)
 
 
 
 删除jar后，却找不到`addEventListener()`方法
 
-![image-20220109172308703](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-17.png)
+![image-20220109172308703](20220109-ESFileExplorer/20220110000842-17.png)
 
 只好自力更生了
 
@@ -287,7 +287,7 @@ e.c()和e.d() 任意一方法返回`true`即可，我这里就都改了
 
 然后去把两处调用删除
 
-![image-20220109172938998](https://gitee.com/Forgo7ten/images-bed/raw/master/2022/01/20220110000842-18.png)
+![image-20220109172938998](20220109-ESFileExplorer/20220110000842-18.png)
 
 看代码有异常捕获了，应该不出问题
 
