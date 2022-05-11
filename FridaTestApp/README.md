@@ -4,7 +4,7 @@
 
 # Frida简单使用
 
-## Frida简单Hook
+## Frida java层hook
 
 1.   编写MainActivity，添加按钮`btnMethodHooked`
 
@@ -23,7 +23,7 @@
 5.   运行
 
      ```bash
-     frida -H 192.168.0.104:8888 -f com.db.translate.app -l test.js
+     frida -H 192.168.0.104:8888 -f com.forgotten.fridatestapp -l test.js
      ```
 
 ```javascript
@@ -347,7 +347,7 @@ Java.enumerateLoadedClasses({
 
 ## Frida 打印栈回溯
 
-```
+```javascript
 function printStack(name) {
     Java.perform(function () {
         var Exception = Java.use("java.lang.Exception");
@@ -826,3 +826,20 @@ function replace_NewStringUTF_func() {
 }
 ```
 
+
+
+
+
+# 零碎总结
+
+
+
+
+
+
+
+---
+
+文章参考
+
+-   

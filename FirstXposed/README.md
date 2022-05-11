@@ -1,6 +1,8 @@
 # FirstXposed
 
-Xposed基础项目搭建参见：[Android(0) Xposed 模块开发一 环境搭建 | Forgo7ten'blog](https://forgo7ten.github.io/AndroidReverse/2021/2021071201/)
+Xposed基础项目搭建参见：[Xposed 模块开发一 环境搭建 | Forgo7ten'blog](https://forgo7ten.github.io/AndroidReverse/2021/Initial_xposed_module_development/)
+
+Xposed API 文档：[Xposed Framework API](https://api.xposed.info/reference/packages.html)
 
 ## Hook方法
 
