@@ -1,0 +1,64 @@
+
+8
+java:S2386"Make this member "protected".(«Ãçøÿÿÿÿ
+8
+java:S2386"Make this member "protected".(Ãù”šùÿÿÿÿ
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(•”ú
+u
+java:S1149S"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(»Ûµ
+{
+java:S1149±"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÊØˆÙüÿÿÿÿ
+v
+java:S1149Æ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ç½…ª
+H
+java:S1135"2Complete the task associated to this TODO comment.(ÚëÚô
+Q	java:S125="<This block of commented-out lines of code should be removed.(ï¢Â½
+I
+java:S3599>",Use another way to initialize this instance.(œŠÀà8òû…üë/
+o
+java:S1171>"YMove the contents of this initializer to a standard constructor or to field initializers.(œŠÀà
+M
+java:S1854O"7Remove this useless assignment to local variable "len".(Åª¦Á
+>
+java:S1481O"(Remove this unused "len" local variable.(Åª¦Á
+V	java:S125g"<This block of commented-out lines of code should be removed.(Šá¸Áüÿÿÿÿ
+I
+java:S3599i",Use another way to initialize this instance.(ó§ÜÃ8‹ü…üë/
+o
+java:S1171i"YMove the contents of this initializer to a standard constructor or to field initializers.(ó§ÜÃ
+\
+java:S2147‡"ECombine this catch with the one at line 133, which has the same body.(ï­£Ä
+V	java:S125y"<This block of commented-out lines of code should be removed.(š‹»ñıÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Òâƒ•úÿÿÿÿ
+O	java:S106¡"9Replace this use of System.out or System.err by a logger.(Ì¿ÇÁ
+\
+java:S2147©"ECombine this catch with the one at line 167, which has the same body.(ï­£Ä
+\
+java:S2147¾"ECombine this catch with the one at line 188, which has the same body.(ï­£Ä
+\
+java:S2147Õ"ECombine this catch with the one at line 211, which has the same body.(ï­£Ä
+a
+java:S1192D"KDefine a constant instead of duplicating this literal "from_email" 4 times.(¾ãÇš
+b
+java:S1192"GDefine a constant instead of duplicating this literal "&nbsp;" 3 times.(ßğÑ¿şÿÿÿÿ
+n
+java:S1104"SMake xwInfos a static final constant or non-public and provide accessors if needed.(«Ãçøÿÿÿÿ
+n
+java:S1104"SMake xnInfos a static final constant or non-public and provide accessors if needed.(Ãù”šùÿÿÿÿ
+i
+java:S1104"SMake logInfo a static final constant or non-public and provide accessors if needed.(•”ú
+H
+java:S1444"-Make this "public static xwInfos" field final(«Ãçøÿÿÿÿ
+H
+java:S1444"-Make this "public static xnInfos" field final(Ãù”šùÿÿÿÿ
+C
+java:S1444"-Make this "public static logInfo" field final(•”ú
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(äØ’
+h
+java:S2095Å"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(àš›±şÿÿÿÿ
+h
+java:S2095°"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ÉŒ¿şÿÿÿÿ
+h
+java:S2095£"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ò÷ÒÀûÿÿÿÿ

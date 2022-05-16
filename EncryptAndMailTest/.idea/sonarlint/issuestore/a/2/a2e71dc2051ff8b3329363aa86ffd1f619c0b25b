@@ -1,0 +1,10 @@
+
+M	java:S106%"9Replace this use of System.out or System.err by a logger.(•È›S
+>
+java:S5542."#Use secure mode and padding scheme.(†ßåÅùÿÿÿÿ
+M	java:S106K"9Replace this use of System.out or System.err by a logger.(•È›S
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(ìï½àøÿÿÿÿ
+B
+java:S3329V"'Use a dynamically-generated, random IV.(áËÇŒıÿÿÿÿ
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(ÃÚŸ–ùÿÿÿÿ
+M	java:S106i"9Replace this use of System.out or System.err by a logger.(›º

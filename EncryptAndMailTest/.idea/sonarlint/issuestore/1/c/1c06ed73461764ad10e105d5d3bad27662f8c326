@@ -1,0 +1,13 @@
+
+u
+java:S1149("_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+H
+java:S1135"2Complete the task associated to this TODO comment.(ÚëÚô
+B
+java:S1905"'Remove this unnecessary cast to "long".(²õ­ıÿÿÿÿ
+M	java:S106%"9Replace this use of System.out or System.err by a logger.(Â£“;
+L
+java:S1854("6Remove this useless assignment to local variable "sb".(í…Ò‰
+=
+java:S1481("'Remove this unused "sb" local variable.(í…Ò‰
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(’¸÷Â8öË²Şù/

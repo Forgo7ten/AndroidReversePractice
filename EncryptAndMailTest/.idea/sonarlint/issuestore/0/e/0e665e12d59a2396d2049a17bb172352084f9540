@@ -1,0 +1,44 @@
+
+H
+java:S1135"2Complete the task associated to this TODO comment.(ΪλΪτ
+_
+java:S2147*"DCombine this catch with the one at line 40, which has the same body.(½ε€ωϋÿÿÿÿ
+_
+java:S2147\"DCombine this catch with the one at line 90, which has the same body.(½ε€ωϋÿÿÿÿ
+A
+java:S5542"#Use secure mode and padding scheme.(›σΰΊ8•…ώμ/
+A
+java:S5542"#Use secure mode and padding scheme.(›σΰΊ8•…ώμ/
+T	java:S106¬"9Replace this use of System.out or System.err by a logger.(ρƒ ¬ωÿÿÿÿ
+O	java:S106­"9Replace this use of System.out or System.err by a logger.(ΠοΜΰ
+V	java:S106―"9Replace this use of System.out or System.err by a logger.(»•Ίδ8•…ώμ/
+[	java:S106²"9Replace this use of System.out or System.err by a logger.(ΔƒΩιωÿÿÿÿ8‘•…ώμ/
+[	java:S106µ"9Replace this use of System.out or System.err by a logger.(ψοÿÿÿÿÿ8’•…ώμ/
+X
+java:S1854Ύ"5Remove this useless assignment to local variable "q".(ΪΗ­£ψÿÿÿÿ8“•…ώμ/
+X
+java:S1854½"5Remove this useless assignment to local variable "p".(²’Ιεϋÿÿÿÿ8“•…ώμ/
+I
+java:S1481½"&Remove this unused "p" local variable.(²’Ιεϋÿÿÿÿ8“•…ώμ/
+I
+java:S1481Ύ"&Remove this unused "q" local variable.(ΪΗ­£ψÿÿÿÿ8”•…ώμ/
+[	java:S106Η"9Replace this use of System.out or System.err by a logger.(ρƒ ¬ωÿÿÿÿ8”•…ώμ/
+V	java:S106Θ"9Replace this use of System.out or System.err by a logger.(ΠοΜΰ8••…ώμ/
+U	java:S106Κ"9Replace this use of System.out or System.err by a logger.(³ΣΫ,8–•…ώμ/
+[	java:S106Ν"9Replace this use of System.out or System.err by a logger.(ΔƒΩιωÿÿÿÿ8–•…ώμ/
+[	java:S106Π"9Replace this use of System.out or System.err by a logger.(ψοÿÿÿÿÿ8—•…ώμ/
+V	java:S106Φ"9Replace this use of System.out or System.err by a logger.(–Ρ±·8—•…ώμ/
+f	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΦΖ›
+k	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(κΊΦϋÿÿÿÿ
+k	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘³ϋΥωÿÿÿÿ
+k	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΣΘίΘψÿÿÿÿ
+k	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘³ϋΥωÿÿÿÿ
+f	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«¥
+k
+java:S2259¬"HA "NullPointerException" could be thrown; "privateKey" is nullable here.(ρƒ ¬ωÿÿÿÿ8­•…ώμ/
+e
+java:S2259Θ"GA "NullPointerException" could be thrown; "publicKey" is nullable here.(ΠοΜΰ8­•…ώμ/
+k
+java:S2259Η"HA "NullPointerException" could be thrown; "privateKey" is nullable here.(ρƒ ¬ωÿÿÿÿ8­•…ώμ/
+e
+java:S2259­"GA "NullPointerException" could be thrown; "publicKey" is nullable here.(ΠοΜΰ8¬•…ώμ/
