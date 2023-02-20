@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Acode_Myself/AndroidStudioProjects/2021-1/HomeWorkFive/app/src/main/res/layout/activity_main.xml" value="0.27309782608695654" />
+        <entry key="..\:/Acode_Myself/AndroidStudioProjects/2021-1/HomeWorkFive/app/src/main/res/layout/activity_news_detail.xml" value="0.27447916666666666" />
+        <entry key="..\:/Acode_Myself/AndroidStudioProjects/2021-1/HomeWorkFive/app/src/main/res/layout/fragment_content.xml" value="0.2536231884057971" />
+        <entry key="..\:/Acode_Myself/AndroidStudioProjects/2021-1/HomeWorkFive/app/src/main/res/layout/layout_item.xml" value="0.17239583333333333" />
+        <entry key="..\:/SoftwareData/MyCode/AndroidStudioProjects/HomeWorkFive/app/src/main/res/layout/activity_news_detail.xml" value="0.2640625" />
+        <entry key="..\:/SoftwareData/MyCode/AndroidStudioProjects/HomeWorkFive/app/src/main/res/layout/fragment_content.xml" value="0.2033514492753623" />
+        <entry key="..\:/SoftwareData/MyCode/AndroidStudioProjects/HomeWorkFive/app/src/main/res/layout/layout_item.xml" value="0.2640625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8 (3)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
